@@ -1,0 +1,25 @@
+body {
+    background-image: url('assets/jaguar-xe.jpg');
+    background-size: 100%;
+}
+
+.container {
+    background-color: black;
+    opacity: 0.7;
+    max-width: 600px;
+    position: relative;
+    top: 150px;
+    left: 100px;
+    color: #fff;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #DE3030;
+    padding: 10px;
+    color: #fff;
+    border-radius: 5px;
+    width: 30%;
+}
