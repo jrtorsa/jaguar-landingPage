@@ -1,11 +1,11 @@
 body {
     background-image: url('assets/jaguar-xe.jpg');
-    background-size: 100%;
+    background-size: 100% 100vh;
+    background-repeat: no-repeat;
 }
 
 .container {
-    background-color: black;
-    opacity: 0.7;
+    background-color: rgba(0,0,0,0.7);
     max-width: 600px;
     position: relative;
     top: 150px;
@@ -17,7 +17,7 @@ body {
 }
 
 button {
-    background-color: #DE3030;
+    background-color: rgba(222, 48, 48, 1);
     padding: 10px;
     color: #fff;
     border-radius: 5px;
