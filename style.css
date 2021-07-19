@@ -1,12 +1,12 @@
 body {
   background-image: url("assets/jaguar-xe.jpg");
-  background-size: 100% 100vh;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
 .container {
   background-color: rgba(0, 0, 0, 0.7);
-  max-width: 600px;
+  max-width: 540px;
   position: relative;
   top: 150px;
   left: 100px;
@@ -42,6 +42,9 @@ body {
 
 /* 768px */
 @media (max-width: 48em) {
+  body{
+    background-size: cover;
+  }
   .container {
     border: 1px solid blue;
     top: 70px;
@@ -60,6 +63,9 @@ body {
 
 /* 480px */
 @media (max-width: 30em) {
+  body{
+    background-size: cover;
+  }
   .container {
     border: 1px solid magenta;
   }
@@ -78,4 +84,5 @@ button {
   color: #fff;
   border-radius: 5px;
   width: 30%;
+  cursor: pointer;
 }
